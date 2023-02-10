@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.content__form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.content__checkbox {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    gap: 20px;
+    font-size: 15px;
+}
+input {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+}
+
+
+#content__button {
+    border: none;
+    border-radius: 30px;
+    background-color: greenyellow;
+    color: #333;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.error .input-field {
+    display: block;
+    margin-bottom: 10px;
+    border-color: #D53032;
+}
+
+.input-err {
+    border-color: #D53032;
+}
+
+.err-message {
+    display: flex;
+    flex-direction: column;
+    color: #D53032;
+    margin-top: 3px;
+}
+
+.symbols-err {
+    border-color: #D53032;
+}
+
+.symbols-message {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    color: #D53032;
+    margin-top: 3px;
+}
+
+.psw-err {
+    border-color: #D53032;
+}
+.repass-text {
+    display: flex;
+    flex-direction: column;
+    color: #D53032;
+    margin-top: 3px;
+}
+
